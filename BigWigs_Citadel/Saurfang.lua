@@ -56,12 +56,8 @@ function mod:OnBossEnable()
 end
 
 function mod:OnEngage(diff)
-	self:OpenProximity(11)
-	if diff > 2 then
-		self:Berserk(360)
-	else
-		self:Berserk(480)
-	end
+	self:OpenProximity(12)
+	self:Berserk(360)
 	self:DelayedMessage("adds", 35, L["adds_warning"], "Urgent")
 	self:Bar("adds", L["adds_bar"], 40, 72173)
 	count = 1
@@ -127,4 +123,3 @@ function mod:Deaths()
 	killed = true
 	self:Win()
 end
-
