@@ -1,2 +1,3 @@
 # BigWigs for Frostmourne by Rehab 
-# Maintainer by House & Gomi
+
+Maintained by House & Gomi
