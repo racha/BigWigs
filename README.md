@@ -1,1 +1,2 @@
-# BigWigs for Frostmourne by <Rehab>
+# BigWigs for Frostmourne by Rehab 
+# Maintainer by House & Gomi
