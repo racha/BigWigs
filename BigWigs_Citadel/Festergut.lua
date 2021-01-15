@@ -66,7 +66,7 @@ function mod:OnEngage()
 	self:Berserk(300, true)
 	self:Bar(69279, L["spore_bar"], 20, 69279)
 	self:Bar(69165, L["inhale_bar"]:format(count), 33.5, 69165)
-	self:OpenProximity(9)
+	self:OpenProximity(12)
 end
 
 --------------------------------------------------------------------------------
@@ -146,4 +146,3 @@ function mod:OnSync(sync, rest, nick)
 		self:Message(72295, L["ball_message"], "Important", 72295)
 	end
 end
-
